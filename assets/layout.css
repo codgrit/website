@@ -1,7 +1,78 @@
-.parent {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-  
-    /* Just for parent demo size */
-    height: 100vh;
-  }
+/*Overide default style and set padding and margin to nothing*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* White text backgorunf */
+body {
+    font-family: "lato", sans-serif;
+}
+ /* make all link text black with NO text decoration*/
+
+ a {
+    color: black;
+    text-decoration: none;
+ }
+
+ h1{
+    font-size: 30px;
+    font-weight: 800px;
+    margin: 10px 0;
+    line-height: 1.2;
+ }
+
+ h2{
+    font-size: 30px;
+    font-weight: 300px;
+    margin: 10px 0;
+    line-height: 1.2;
+ }
+
+ /* All images must not be lager than the parent container */
+
+ img {
+    width: 100%;
+ }
+
+ /* No styling on list items*/
+
+ li{
+    list-style-type: none;
+ }
+
+ p{
+    font-size: 20px;
+    margin: 10px 0;
+ }
+
+ /*Center the container, set its maximum width and ensure elements can flow past it */
+
+ .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+ }
+
+ /*Set the background color of the nav bar*/
+ .navbar {
+    background-color: purple;
+    height: 80px;
+    padding: 0 30px;
+ }
+
+ .navbar h1 {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1.2;
+ }
+
+ .navbar .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+ }
