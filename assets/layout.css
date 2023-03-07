@@ -58,9 +58,13 @@ body {
 
  /*Set the background color of the nav bar*/
  .navbar {
-    background-color: peru;
+    background-color: white;
     height: 80px;
     padding: 0 30px;
+ }
+
+ .brand {
+    height: 100px;
  }
 
  .navbar h1 {
@@ -72,7 +76,8 @@ body {
 
  .navbar .flex {
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    column-gap: 20px;
     align-items: center;
     height: 100%;
  }
@@ -84,13 +89,13 @@ body {
  /*Change link colors to white and add padding and margin between them */
 
  .navbar a {
-    color: white;
+    color: mistyrose;
     padding: 9px;
     margin: 0 10px;
  }
 
  .navbar a:hover {
-    color:mistyrose ;
+    color:mediumseagreen ;
     border-bottom: 3px solid mistyrose;
  }
 
@@ -144,3 +149,46 @@ body {
 
   /*change the typeface and its size*/
   
+  .lower-container {
+    margin: 300px auto;
+    padding: 50px;
+    max-width: 1400px;
+  }
+
+  /* Targets all h3 with class of title */
+.title {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  
+  /* Targets the paragraphs with class name of text */
+  .text {
+    color: black;
+    font-size: 19px;
+    width: 100%;
+    padding: 10px;
+    margin: 0, 20px;
+    text-align: justify;
+  }
+
+  /* Display horizontally, put a little space around them */
+.flex {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* Add some padding around the container. Align text centrally */
+  .stats {
+    padding: 45px 50px;
+    text-align: center;
+  }
+  
+  /* Set margin and width */
+  .stat {
+    margin: 0 30px;
+    text-align: center;
+    width: 800px;
+  }
