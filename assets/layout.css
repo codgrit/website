@@ -8,7 +8,7 @@
 
 /* White text backgorunf */
 body {
-    font-family: "lato", sans-serif;
+    font-family: "lato", 'Arial Narrow Bold', sans-serif;
 }
  /* make all link text black with NO text decoration*/
 
@@ -18,8 +18,8 @@ body {
  }
 
  h1{
-    font-size: 30px;
-    font-weight: 800px;
+    font-size: 60px;
+    font-weight: 600px;
     margin: 10px 0;
     line-height: 1.2;
  }
@@ -58,7 +58,7 @@ body {
 
  /*Set the background color of the nav bar*/
  .navbar {
-    background-color: purple;
+    background-color: peru;
     height: 80px;
     padding: 0 30px;
  }
@@ -76,3 +76,71 @@ body {
     align-items: center;
     height: 100%;
  }
+
+ .navbar ul{
+    display: flex;
+ }
+
+ /*Change link colors to white and add padding and margin between them */
+
+ .navbar a {
+    color: white;
+    padding: 9px;
+    margin: 0 10px;
+ }
+
+ .navbar a:hover {
+    color:mistyrose ;
+    border-bottom: 3px solid mistyrose;
+ }
+
+ .showcase {
+    height: 300px;
+    /*background-color: whitesmoke;*/
+ }
+
+ .showcase p {
+    margin-bottom: 30px;
+ }
+
+
+.grid {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 20px;
+}
+
+.grid-item-1,
+.grid-item-2 {
+    position: relative;
+    top: 40px;
+}
+
+/*style he form input by selecting its type*/
+.showcase input[type="Email"] {
+    padding: 10px 70px 10px 0;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    padding-left: 6px;
+}
+
+.btn {
+    border-radius: 6px;
+    padding: 12px 20px;
+    background: red;
+    border: none;
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .showcase-form {
+    margin: auto;
+  }
+
+  /*change the typeface and its size*/
+  
