@@ -151,7 +151,7 @@
             loading="lazy"
             class="project-pic"
           />
-          <h3 class="project-title">KAINOafrica</h3>
+          <!--<h3 class="project-title">KAINOafrica</h3>-->
           <p class="project-details">
             KAINO is an ECD web and mobile solution. Leverages Foundational Literacy and Numeracy (FLN)
             in the form of STEM blended curriculum in schools.
@@ -204,12 +204,92 @@
     </section>
 
     <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="c3596b36-3b3d-472f-865b-4185f3e95eb4">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
 
     <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://twitter.com/LarryOnenLakuma" target="_blank"
+        ><img
+          src="assets/images/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/lawrenceonenlakuma/" target="_blank"
+        ><img
+          src="assets/images/icons/icons8-linkedin-96.svg"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/LawrenceOnen" target="_blank"
+        ><img src="assets/images/icons/icons8-github.gif" 
+        alt="Github" 
+        class="socicon"
+        loading="lazy"
+      /></a>
+      </div>
 
     <!-- Scroll to top -->
 
     <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2023</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://github.com/LawrenceOnen" target="_blank"
+          >Lawrence Onen </a>
+      </p>
+    </footer>
 
     <!-- Website scripts -->
 
