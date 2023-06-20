@@ -62,6 +62,10 @@ nav {
   nav h1 {
     color: var(--primary-color);
   }
+
+  nav .brand{
+    color: black;
+  }
   
   nav a {
     color: var(--primary-color);
